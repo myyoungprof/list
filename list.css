@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+}
+
+section{
+    background-color: ghostwhite;
+    width: 300px;
+    border-radius: 15%;
+    box-shadow: 2px 6px 18px grey;
+    /* height: 200px; */
+}
+
+button{
+    border: none;
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: medium;
+    margin: 14px;
+    visibility: hidden;
+
+}
+
+.alert-danger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: medium;
+    margin: 14px;
+    visibility: visible ;
+    color: black;
+    background-color: brown;
+    border-radius: 25%;
+}
+
+.alert-sucess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: small;
+    margin: 14px;
+    visibility: visible ;
+    color: red;
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#info{
+     width: 200px;
+     margin-left: 5px;
+}
+
+.btn{
+    background-color: skyblue;
+    height: 20px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-spacing: none;
+    width: 70px;
+}
+
+.details{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.add{ 
+    visibility: visible;
+}
+
+.article-list{
+    display: flex;
+}
+
+.list{
+    width: 240px;
+}
+
+.item{
+    margin: 15px;
+}
+
+.rewrite{
+    color: greenyellow;
+}
+
+.delete{
+    color: red;
+}
+
+.showMan{
+    visibility: visible;
+}
+
+
+.clear{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: ghostwhite;
+    color: red;
+}
+
+
